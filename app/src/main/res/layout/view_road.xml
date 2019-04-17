@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  >
+
+  <com.github.aakira.license.view.TriangleView
+    android:id="@+id/roadView"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:tv_color="#9e9e9e"
+    />
+
+  <androidx.appcompat.widget.AppCompatImageView
+    android:id="@+id/line1"
+    android:layout_width="20dp"
+    android:layout_height="50dp"
+    android:src="@drawable/ic_line"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    />
+
+  <androidx.appcompat.widget.AppCompatImageView
+    android:id="@+id/line2"
+    android:layout_width="20dp"
+    android:layout_height="50dp"
+    android:src="@drawable/ic_line"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    />
+
+  <androidx.appcompat.widget.AppCompatImageView
+    android:id="@+id/line3"
+    android:layout_width="20dp"
+    android:layout_height="50dp"
+    android:src="@drawable/ic_line"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    />
+
+  <androidx.appcompat.widget.AppCompatImageView
+    android:id="@+id/line4"
+    android:layout_width="20dp"
+    android:layout_height="50dp"
+    android:src="@drawable/ic_line"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    />
+</merge>

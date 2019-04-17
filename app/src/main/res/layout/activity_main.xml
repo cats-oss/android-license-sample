@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/rootView"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  tools:context=".MainActivity"
+  >
+
+  <View
+    android:id="@+id/skyView1"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:background="#03a9f4"
+    app:layout_constraintHeight_percent="0.5"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    />
+
+  <View
+    android:id="@+id/skyView2"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:background="#3f51b5"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintHeight_percent="0.5"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    />
+
+  <androidx.appcompat.widget.AppCompatImageView
+    android:id="@+id/sunView"
+    android:layout_width="70dp"
+    android:layout_height="70dp"
+    android:src="@drawable/ic_sun"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    />
+
+  <androidx.appcompat.widget.AppCompatImageView
+    android:id="@+id/moonView"
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:src="@drawable/ic_moon"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    />
+
+  <View
+    android:id="@+id/nightView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#263238"
+    />
+
+  <androidx.appcompat.widget.AppCompatImageView
+    android:id="@+id/mountainBackView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:src="@drawable/ic_mountain_back"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    />
+
+  <androidx.appcompat.widget.AppCompatImageView
+    android:id="@+id/mountainFrontView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:src="@drawable/ic_mountain_front"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    />
+
+
+  <View
+    android:id="@+id/groundView"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:background="#8d6e63"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintHeight_percent="0.5"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    />
+
+  <com.github.aakira.license.view.RoadView
+    android:id="@+id/roadView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    />
+
+  <com.github.aakira.license.view.BicycleView
+    android:id="@+id/bicycleView"
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:src="@drawable/ic_bike_center"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    />
+
+  <View
+    android:id="@+id/baseView"
+    android:layout_width="1dp"
+    android:layout_height="1dp"
+    android:visibility="invisible"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    />
+
+  <androidx.appcompat.widget.AppCompatImageView
+    android:id="@+id/logoView"
+    android:layout_width="120dp"
+    android:layout_height="120dp"
+    android:layout_marginTop="36dp"
+    android:scaleX="0"
+    android:scaleY="0"
+    android:src="@drawable/ic_cats_logo"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    />
+
+  <com.github.aakira.license.view.ObservableScrollView
+    android:id="@+id/observableScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.0"
+    >
+
+    <LinearLayout
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      >
+
+      <TextView
+        android:id="@+id/licenseText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:shadowColor="#03000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="1"
+        android:textColor="#fefefe"
+        android:textSize="12sp"
+        />
+
+      <TextView
+        android:id="@+id/creditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|bottom"
+        android:shadowColor="#03000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="2"
+        android:textColor="#fefefe"
+        android:textSize="12sp"
+        />
+    </LinearLayout>
+  </com.github.aakira.license.view.ObservableScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

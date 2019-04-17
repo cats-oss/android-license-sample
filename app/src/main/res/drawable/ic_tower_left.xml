@@ -1,0 +1,24 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:width="165dp" android:height="513dp" android:viewportWidth="165" android:viewportHeight="513">
+    <path android:pathData="M147.971 469L131 478.971 147.971 489l16.971-10.029z" android:strokeWidth="1" android:fillColor="#424242" android:fillType="evenOdd"/>
+    <path android:pathData="M147.971 469L131 478.971 147.971 489l16.971-10.029zm-65 24L66 502.971 82.971 513l16.971-10.029zm-65-24L1 478.971 17.971 489l16.971-10.029zm65-22L66 456.971 82.971 467l16.971-10.029z" android:strokeWidth="1" android:fillColor="#424242" android:fillType="evenOdd"/>
+    <path android:pathData="M83.441 58l64.5-21.1-32.5 61.1m-2.5-20l35-41.1m-64.5 83.1l64.5-21.1-32.5 61.1m-2.5-20l35-41.1m-64.5 81.1l64.5-21.1-32.5 61.1m-2.5-20l35-41.1" android:strokeWidth="2" android:strokeColor="#626262" android:fillType="evenOdd"/>
+    <path android:pathData="M131.941 402.833l-48.5 53.667-49.5-53.667" android:strokeWidth="2" android:strokeColor="#676767" android:fillType="evenOdd"/>
+    <path android:pathData="M147.941 478l-65-104.319-65 104.319" android:strokeWidth="2" android:strokeColor="#676767" android:fillType="evenOdd"/>
+    <path android:pathData="M131.941 402.833L83.441 302.5l-49.5 100.333" android:strokeWidth="2" android:strokeColor="#676767" android:fillType="evenOdd"/>
+    <path android:pathData="M120.941 327l-37.5 44.333L45.941 327m67-69l-29.5 44-30.5-44" android:strokeWidth="2" android:strokeColor="#676767" android:fillType="evenOdd"/>
+    <path android:pathData="M120.941 327l-37.5-86.5-37.5 86.5" android:strokeWidth="2" android:strokeColor="#676767" android:fillType="evenOdd"/>
+    <path android:pathData="M112.941 258l-29.5-78-29.5 78" android:strokeWidth="2" android:strokeColor="#676767" android:fillType="evenOdd"/>
+    <path android:pathData="M112.941 198l-30 40-30-40" android:strokeWidth="2" android:strokeColor="#676767" android:fillType="evenOdd"/>
+    <path android:pathData="M112.941 199l-29.5-78-29.5 78" android:strokeWidth="2" android:strokeColor="#676767" android:fillType="evenOdd"/>
+    <path android:pathData="M112.941 139l-30 40-30-40m60-3l-29.5-78-29.5 78" android:strokeWidth="2" android:strokeColor="#676767" android:fillType="evenOdd"/>
+    <path android:pathData="M112.941 76l-30 40-30-40" android:strokeWidth="2" android:strokeColor="#676767" android:fillType="evenOdd"/>
+    <path android:pathData="M147.941 478l-64.5-43-65.5 43m65.5 25l48.5-100.167M81.441 503l-47.5-100.167m98 0L83.441 352l-49.5 50.833" android:strokeWidth="2" android:strokeColor="#878787" android:fillType="evenOdd"/>
+    <path android:pathData="M120.941 327l-37.5 107.333L45.941 327m75 0l-37.5-49-37.5 49" android:strokeWidth="2" android:strokeColor="#878787" android:fillType="evenOdd"/>
+    <path android:pathData="M120.941 327l-37.5-49-37.5 49m66-69l-28.5-40-30.5 40m59-61l-28.5-40-30.5 40m59-60l-28.5-40-30.5 40" android:strokeWidth="2" android:strokeColor="#878787" android:fillType="evenOdd"/>
+    <path android:pathData="M111.941 278l-28.5 74-29.5-74m58-80l-29 80-29-80" android:strokeWidth="2" android:strokeColor="#878787" android:fillType="evenOdd"/>
+    <path android:pathData="M111.941 140l-29 80-29-80" android:strokeWidth="2" android:strokeColor="#878787" android:fillType="evenOdd"/>
+    <path android:pathData="M111.941 79l-29 80-29-80" android:strokeWidth="2" android:strokeColor="#878787" android:fillType="evenOdd"/>
+    <path android:pathData="M131.941 402.833l-49 31.5-49-31.5 49-31.5zm-11-75.833l-37.5 25-37.5-25 37.5-25zm-9-69l-29 20-29-20 29-20zm0-60l-29 20-29-20 29-20zm0-60l-29 20-29-20 29-20zm0-60l-29 20-29-20 29-20z" android:strokeWidth="4" android:strokeColor="#919191" android:fillType="evenOdd"/>
+    <path android:pathData="M82.941 3l30 75v200l35 200m-65-475L53.768 78v200L17.941 478m65-475v500" android:strokeWidth="6" android:strokeColor="#626262" android:fillType="evenOdd" android:strokeLineCap="round"/>
+    <path android:pathData="M52.941 78l-34.884 28.022-15.116 12.142 78.5-0.164m-78.5-1l79.5-19m-29.5 40l-34.884 28.022-15.116 12.142 78.5-0.164m-78.5-1l79.5-19m-29.5 40l-34.884 28.022-15.116 12.142 78.5-0.164m-78.5-1l79.5-19" android:strokeWidth="2" android:strokeColor="#626262" android:fillType="evenOdd"/>
+</vector>

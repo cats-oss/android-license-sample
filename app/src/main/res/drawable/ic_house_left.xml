@@ -1,0 +1,16 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:width="282dp" android:height="529dp" android:viewportWidth="282" android:viewportHeight="529">
+    <path android:pathData="M27.625 263h134v257h-134z" android:strokeWidth="1" android:fillColor="#8C9900" android:fillType="evenOdd"/>
+    <path android:pathData="M58.125 278.5h80v133h-80z" android:strokeWidth="11" android:fillColor="#3E2723" android:strokeColor="#B3BC6D" android:fillType="evenOdd"/>
+    <path android:pathData="M69 285H0l68.625-138.244V146h147v139H69z" android:strokeWidth="1" android:fillColor="#5D4037" android:fillType="evenOdd"/>
+    <path android:pathData="M187 0l95 190H92z" android:strokeWidth="1" android:fillColor="#624B46" android:fillType="evenOdd"/>
+    <path android:pathData="M120 190h139v330H120z" android:strokeWidth="1" android:fillColor="#B3BC6D" android:fillType="evenOdd"/>
+    <path android:pathData="M157 211h30v50h-30zm35 0h30v50h-30zm0 54h30v50h-30zm-35 0h30v50h-30z" android:strokeWidth="1" android:fillColor="#3E2723" android:fillType="evenOdd"/>
+    <path android:pathData="M136 404h18v116h-18z" android:strokeWidth="1" android:fillColor="#748960" android:fillType="evenOdd"/>
+    <path android:pathData="M154 404h18v116h-18z" android:strokeWidth="1" android:fillColor="#7F996F" android:fillType="evenOdd"/>
+    <path android:pathData="M172 404h18v116h-18z" android:strokeWidth="1" android:fillColor="#748960" android:fillType="evenOdd"/>
+    <path android:pathData="M190 404h18v116h-18z" android:strokeWidth="1" android:fillColor="#7F996F" android:fillType="evenOdd"/>
+    <path android:pathData="M208 404h18v116h-18z" android:strokeWidth="1" android:fillColor="#748960" android:fillType="evenOdd"/>
+    <path android:pathData="M226 404h18v116h-18z" android:strokeWidth="1" android:fillColor="#7F996F" android:fillType="evenOdd"/>
+    <path android:pathData="M130 398h120v12H130z" android:strokeWidth="1" android:fillColor="#8C9900" android:fillType="evenOdd"/>
+    <path android:pathData="M105 512h165v17H105z" android:strokeWidth="1" android:fillColor="#554B4B" android:fillType="evenOdd"/>
+</vector>

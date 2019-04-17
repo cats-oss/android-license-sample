@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <declare-styleable name="TriangleView">
+    <attr name="tv_color" format="color"/>
+  </declare-styleable>
+  <declare-styleable name="LineView">
+    <attr name="lv_color" format="color"/>
+  </declare-styleable>
+</resources>
