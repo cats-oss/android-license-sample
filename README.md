@@ -57,9 +57,9 @@ The bicycle is switched by the following three images.
 
 ### Lines on road
 
-This lines move along this function.
+This lines move along this function.    
 
-`y=1/(h^n) * x^n`
+<img src="https://latex.codecogs.com/gif.latex?y&space;=&space;\frac{x^n}{h^n}" />
 
 * Graph
 
@@ -69,22 +69,23 @@ e.g. h(height)=2000, n=6.5
 
 * Spread sheet
 
-You can change values and see how it works.
+You can change values and see how it works.  
 
 https://docs.google.com/spreadsheets/d/18L7ELAOvYFlnyRuj-T_5yDBZDgzLFjkvj8rHRkcF230/edit#gid=0
 
 ### Sun and moon
 
-`x=rcosθ, y=rsinθ`
+<img src="https://latex.codecogs.com/gif.latex?y&space;=&space;r\sin\theta" />  
+<img src="https://latex.codecogs.com/gif.latex?x&space;=&space;r\cos\theta" />  
 
 ### Towers, churches, homes
 
 Change a pivot.
 
-* Left objects: lower right
+* Left objects: lower right  
 `(pivotX, pivotY) = (view.width, view.height)`
 
-* Right objects: lower left
+* Right objects: lower left  
 `(pivotX, pivotY) = (0, view.height)`
 
 ## License
@@ -111,3 +112,5 @@ limitations under the License.
 [img-design-drawing]: /arts/design-drawing.jpg
 [img-graph]: /arts/graph.jpg
 [gif-license]: /arts/license.gif
+
+
